@@ -1,0 +1,48 @@
+@import "_variables.scss";
+
+a {
+  color: $primary-color;
+}
+
+nav {
+  background-color: #885053;
+
+  ol {
+    list-style: none;
+
+    a {
+      font-weight: bold;
+      color: white;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.row {
+  .column {
+    background-color: #c6ecae;
+  }
+}
+
+button {
+  color: $primary-color;
+  border-color: $primary-color;
+  background-color: lighten($primary-color, 50%);
+}
+
+$font-base-size: 20px;
+
+h1 {
+  font-size: $font-base-size * 2.25;
+}
+
+h2 {
+  font-size: $font-base-size * 2;
+}
+
+h3 {
+  font-size: $font-base-size * 1.75;
+}
