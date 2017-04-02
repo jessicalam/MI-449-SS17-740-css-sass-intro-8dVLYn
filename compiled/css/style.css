@@ -1,3 +1,62 @@
-a{color:#3b6e98}nav{background-color:#885053}nav ol{list-style:none}nav ol a{font-weight:bold;color:white}nav ol a:hover{text-decoration:underline}.row .column{background-color:#c6ecae}button{color:#3b6e98;border-color:#3b6e98;background-color:#dfeaf3}h1{font-size:45px}h2{font-size:40px}h3{font-size:35px}
+/* colors 3d314a-48233c-92374d-36558f-7261a3 */
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 25px;
+}
 
-/*# sourceMappingURL=style.css.map */
+h1 {
+  color: #3d314a;
+}
+
+h2 {
+  color: #48233c;
+}
+
+h3 {
+  color: #92374d;
+}
+
+h4 {
+  color: #36558f;
+}
+
+h5 {
+  color: #7261a3;
+}
+
+a {
+  font-size: 16px;
+  color: #3d314a;
+}
+
+a:hover {
+  color: #f7ca96;
+}
+
+label {
+  font-size: 30px;
+  color: #92374d;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+
+  th:hover {
+    color: #36558f;
+  }
+
+  tr:nth-child(even) {
+    background-color: #7261a3;
+  }
+}
+
+img,
+input,
+textarea {
+  border-radius: 5px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 25px;
+  border: 1px solid #7261a3;
+}

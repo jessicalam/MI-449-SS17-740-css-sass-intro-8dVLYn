@@ -1,48 +1,63 @@
-@import "_variables.scss";
+@import "_variables";
 
-a {
-  color: $primary-color;
+body {
+  font-family: $serif-fonts;
+  font-size: $font-base-size;
 }
-
-nav {
-  background-color: #885053;
-
-  ol {
-    list-style: none;
-
-    a {
-      font-weight: bold;
-      color: white;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
-}
-
-.row {
-  .column {
-    background-color: #c6ecae;
-  }
-}
-
-button {
-  color: $primary-color;
-  border-color: $primary-color;
-  background-color: lighten($primary-color, 50%);
-}
-
-$font-base-size: 20px;
 
 h1 {
-  font-size: $font-base-size * 2.25;
+  color: $palette-one;
 }
 
 h2 {
-  font-size: $font-base-size * 2;
+  color: $palette-two;
 }
 
 h3 {
-  font-size: $font-base-size * 1.75;
+  color: $palette-three;
+}
+
+h4 {
+  color: $palette-four;
+}
+
+h5 {
+  color: lighten($palette-four, 20%);
+}
+
+a {
+  font-size: $font-base-size * 0.9;
+  color: $palette-four;
+
+  &:hover {
+    color: lighten($palette-four, 20%);
+  }
+}
+
+label {
+  font-size: $font-base-size * 1.5;
+  color: $palette-three;
+}
+
+table,
+th,
+td {
+  border: $set-border;
+}
+
+th:hover {
+  color: $palette-four;
+}
+
+tr:nth-child(even) {
+  background-color: $palette-one;
+}
+
+img,
+input,
+textarea {
+  border-radius: $border-radius;
+  font-family: $serif-fonts;
+  font-size: $font-base-size;
+  border: $set-border;
 }
